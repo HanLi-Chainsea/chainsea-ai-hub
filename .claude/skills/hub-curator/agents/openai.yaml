@@ -1,4 +1,0 @@
-interface:
-  display_name: "Hub Curator"
-  short_description: "整理並維護 ChainSea AI Hub 的資源、案例與索引。"
-  default_prompt: "Use hub-curator to add this resource to ChainSea AI Hub:"

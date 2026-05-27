@@ -12,9 +12,9 @@ Use this skill to keep `chainsea-ai-hub` useful, current, and easy to maintain. 
 ## Core Workflow
 
 1. Inspect the provided resource or note.
-2. Identify what problem it solves, who should use it, and what inputs/outputs it expects.
-3. Classify it using `references/taxonomy.md`.
-4. Evaluate maturity, integration difficulty, priority, and risks using `references/quality-rubric.md`.
+2. Identify what problem it solves and who should use it.
+3. Classify it using the Categories below.
+4. Evaluate status, risks, and adoption blockers using `references/style.md`.
 5. Decide whether to add it to the main hub, place it in watchlist, or reject it for now.
 6. Write or update the relevant Markdown entry.
 7. Update `INDEX.md` only when the item becomes a major entry or creates a new category.
@@ -29,6 +29,15 @@ Use this skill to keep `chainsea-ai-hub` useful, current, and easy to maintain. 
 - Time-aware engineering observations, experiments, and lessons learned: `resources/experiences/`.
 - Interesting but unverified resources: `resources/watchlist.md`.
 - Reusable entry formats: `templates/`.
+
+## Categories
+
+- **AI Agents / Agent Skills**：agent framework、coding agent、multi-agent workflow、reusable agent skill
+- **Testing & QA**：unit test、E2E、test generation、coverage、mutation testing、QA case
+- **MCP / Tool Integration**：MCP server、Jira/GitLab/GitHub integration、browser automation、API wrapper
+- **Documentation / PM**：PRD、meeting notes、technical doc、Jira ticket gen、planning workflow
+
+Add new categories only when ≥3 entries justify the split. Do not pre-create empty categories.
 
 ## Storage Rules
 
@@ -52,6 +61,15 @@ Add a resource to the main hub only when at least one is true:
 
 If the resource is promising but immature, add it to `resources/watchlist.md` with a recheck date. If it is not clearly useful, explain why and do not add it.
 
+## Review Cadence
+
+- Production-used / 高頻使用：每 1-2 月檢查一次。
+- Useful / Experimental：每季檢查一次。
+- Watchlist：設定明確的 recheck date。
+- Deprecated：只在有人詢問時才重新評估。
+
+Experience notes preserve chronology; append to Later Updates, never overwrite.
+
 ## Writing Rules
 
 - Write primarily in Traditional Chinese.
@@ -62,17 +80,15 @@ If the resource is promising but immature, add it to `resources/watchlist.md` wi
 - Link to original docs for feature details instead of copying them.
 - Avoid marketing language and vague adjectives.
 
-For detailed style guidance, read `references/writing-style.md` when drafting longer entries.
+For detailed style guidance, read `references/style.md` when drafting longer entries.
 
 ## Templates
 
 Use these templates when creating new entries:
 
-- Resource cards: `assets/templates/resource-card.md`
-- Case studies: `assets/templates/case-card.md`
-- Experience notes: `assets/templates/experience-note.md`
-
-The repo root also contains user-facing templates under `templates/`.
+- Resource cards: `../../../templates/resource-card.md`
+- Case studies: `../../../templates/case-study-template.md`
+- Experience notes: `../../../templates/experience-note-template.md`
 
 ## Output Format
 
@@ -81,7 +97,7 @@ When asked to add or review a resource, return:
 1. short summary
 2. classification
 3. recommended placement
-4. maturity and risk assessment
+4. status and risks
 5. Markdown entry or files changed
 6. follow-up checks
 
