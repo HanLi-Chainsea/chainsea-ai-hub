@@ -2,6 +2,11 @@
 
 這份索引用來讓工程師快速判斷「現在的任務該看哪裡」。每個正式收錄的資源都應該包含用途、輸入、輸出、成熟度、限制與最後檢查時間。
 
+## 兩種層別
+
+- **Adoption 層**：Repos / Skills / Cases / Experiences —— 完整判斷 schema，做技術選型用
+- **Discovery 層**：Watchlist —— 一行 entry，低門檻 stash
+
 ## Resource Repos
 
 - [AI Agents](resources/repos/ai-agents.md)：agent framework、multi-agent workflow、coding agent 工具。
@@ -25,6 +30,6 @@
 
 ## Governance
 
-- [Watchlist](resources/watchlist.md)：待觀察、待驗證、暫不正式收錄的資源。
+- [Watchlist](resources/watchlist.md)：awesome 風格 discovery 層 —— 一行 entry、月度 review。
 - [Contributing](CONTRIBUTING.md)：新增或更新內容時的格式與品質規則。
 - [Templates](templates)：resource、skill、case、experience note 的模板。

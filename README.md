@@ -12,6 +12,15 @@
 - **案例庫**：把零散實驗整理成可向團隊說明的成果案例。
 - **Hub curator skill**：內建維護 skill，讓 agent 可以協助新增、分類、評估與更新內容。
 
+## 兩層架構
+
+這個 hub 不是單一形狀。**Watchlist 與 Repos/Skills/Cases 是兩種不同的層**：
+
+- **Watchlist（discovery 層）**：awesome 風格，一行 entry，看到就丟。低門檻、沒判斷、可以隨手加。
+- **Repos / Skills / Cases / Experiences（adoption 層）**：Tech Radar 風格，完整判斷 schema —— Why listed、ChainSea Value、Risks、Verification、Next Step。真要採用前才需要。
+
+**Promotion path**：watchlist 累積觀察 → 某條目真的要試了 → 呼叫 hub-curator promote 成完整 entry → 移出 watchlist。
+
 ## 快速入口
 
 - [INDEX.md](INDEX.md)：總索引與分類入口。
@@ -19,7 +28,7 @@
 - [resources/skills/](resources/skills)：agent skill 與可複用工作流。
 - [resources/cases/](resources/cases)：實際案例與成果摘要。
 - [resources/experiences/](resources/experiences)：開發經驗、時間脈絡與迭代紀錄。
-- [resources/watchlist.md](resources/watchlist.md)：看起來有潛力但尚未驗證的資源。
+- [resources/watchlist.md](resources/watchlist.md)：awesome 風格 discovery 層 —— 看到就丟、月度 review。
 - [.claude/skills/hub-curator/SKILL.md](.claude/skills/hub-curator/SKILL.md)：用來維護本 hub 的 agent skill（clone 後自動註冊為 `/hub-curator`）。
 
 ## 建議使用方式

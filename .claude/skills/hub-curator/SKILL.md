@@ -11,7 +11,7 @@ Use this skill to keep `chainsea-ai-hub` useful, current, and easy to maintain. 
 
 ## Core Workflow
 
-1. Inspect the provided resource or note.
+1. Determine whether this belongs in watchlist (default) or main hub (see Watchlist Workflow).
 2. Identify what problem it solves and who should use it.
 3. Classify it using the Categories below.
 4. Evaluate status, risks, and adoption blockers using `references/style.md`.
@@ -61,11 +61,43 @@ Add a resource to the main hub only when at least one is true:
 
 If the resource is promising but immature, add it to `resources/watchlist.md` with a recheck date. If it is not clearly useful, explain why and do not add it.
 
+## Watchlist Workflow
+
+`resources/watchlist.md` 是 awesome-style discovery 層，跟 main hub 是不同產品。
+
+### When to use watchlist instead of main hub
+
+預設丟 watchlist，除非滿足以下任一：
+- 使用者明確說要做完整評估
+- 已是 ChainSea 內部正在用或評估中的工具
+- 已有具體採用情境（不是「看起來有用」）
+
+### Watchlist entry format
+
+一行：`- [name](link) — 一句 tagline。為什麼想看：reason。Added: YYYY-MM-DD`
+
+不要在 watchlist 寫完整判斷、風險、驗證 —— 那是 promotion 後的事。
+
+### Monthly review
+
+當被要求 review watchlist，對每條目判斷：
+- **Promote**：條目已成熟 / 有具體 use case → 移到 `resources/repos/<category>/<name>.md` 完整 detail page，從 watchlist 刪除
+- **Keep**：仍值得觀察 → 不動，但更新 Added 日期或加 note
+- **Drop**：專案停更 / 不再相關 → 刪除
+
+### Promotion 時要做什麼
+
+從 watchlist 移到 main hub 時：
+1. 確認 detail page 用 `templates/resource-card.md` 完整 schema
+2. 真的做 verification（不是抄 watchlist 的 reason）
+3. 在類別頁 entries 區加索引卡
+4. 從 watchlist.md 移除原條目
+
 ## Review Cadence
 
 - Production-used / 高頻使用：每 1-2 月檢查一次。
 - Useful / Experimental：每季檢查一次。
-- Watchlist：設定明確的 recheck date。
+- Watchlist：每月 review 一次（見 Watchlist Workflow）。
 - Deprecated：只在有人詢問時才重新評估。
 
 Experience notes preserve chronology; append to Later Updates, never overwrite.

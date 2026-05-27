@@ -1,19 +1,15 @@
 # Watchlist
 
-看起來有潛力但尚未驗證的資源先放這裡。watchlist 的價值是讓 hub 保持乾淨，同時不丟掉未來可能有用的線索。
+低門檻 discovery 層。看到覺得有意思但還沒驗證的資源就先丟這裡 —— 不需要當下做判斷。
+每個月被 hub-curator 掃一次，決定 promote 成完整 entry、繼續觀察、或刪除。
 
 ## Format
 
-```md
-### Resource Name
-
-- Link:
-- Reason to watch:
-- Potential use case:
-- Missing information:
-- Recheck date:
-- Owner:
 ```
+- [name](link) — 一句 tagline。為什麼想看：reason。Added: YYYY-MM-DD
+```
+
+一行為原則，最多三句。不要在這層做完整判斷 —— 那是 promote 後 `resources/repos/` 的事。
 
 ## Items
 
