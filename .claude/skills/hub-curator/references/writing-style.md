@@ -17,13 +17,15 @@ Write for busy engineers who need to decide whether to try something.
 
 ## Good Entry Shape
 
-1. What it does.
-2. When to use it.
-3. What inputs it needs.
-4. What it outputs.
-5. How hard it is to integrate.
-6. What can go wrong.
-7. When it was last checked.
+1. Why it is listed.
+2. Where it belongs.
+3. What ChainSea could use it for.
+4. When not to use it.
+5. What risks or adoption blockers exist.
+6. What was verified.
+7. What the next check should be.
+
+Do not rewrite the original project's README. Keep only the minimum context needed for indexing, adoption judgment, and future maintenance.
 
 ## Time-Aware Notes
 

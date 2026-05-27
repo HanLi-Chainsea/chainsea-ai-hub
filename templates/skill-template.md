@@ -1,30 +1,33 @@
+---
+name: {{skill_name}}
+description: {{一句話說明這個 skill 幫 agent 做什麼，以及何時應呼叫它}}
+---
+
 # {{skill_name}}
 
-## Purpose
+## Overview
 
-{{What this skill helps an agent do.}}
+{{這個 skill 解決什麼問題、面向誰、使用前提。}}
 
-## Inputs
+## Core Workflow
 
--
+1. {{第一步}}
+2. {{第二步}}
+3. {{第三步}}
+4. 驗證結果，記錄遺留風險。
+5. 回報變更、注意事項與後續待辦。
 
-## Workflow
+## Rules
 
-1. Inspect the request and available context.
-2. Identify the target files, tools, or resources.
-3. Apply the workflow.
-4. Verify the result.
-5. Report changes, caveats, and follow-up work.
+- {{強制規則 1，例如：不要覆寫 X，只能 append}}
+- {{強制規則 2}}
+- {{邊界條件或排除情況}}
 
-## Quality Gates
+## Output Format
 
--
+執行後回傳：
 
-## Output
-
-Return:
-
-1. summary
-2. files changed or suggested
-3. verification
-4. remaining risks
+1. 執行摘要
+2. 產出檔案或變更清單
+3. 驗證結果
+4. 遺留不確定性或待補充項目

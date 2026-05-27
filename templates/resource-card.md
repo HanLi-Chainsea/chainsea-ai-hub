@@ -1,53 +1,33 @@
 # {{name}}
 
-## Basic Info
-
-- Type:
-- Category:
-- Source:
-- Link:
-- License:
-- Owner / Maintainer:
-- Last checked:
-
-## Summary
-
-{{One-paragraph summary of what this resource does.}}
-
-## Best Use Cases
-
--
--
--
-
-## Why It Matters
-
-{{Explain why this is useful for ChainSea engineering, AI workflow, QA, PM, or product development.}}
-
-## Inputs
-
--
-
-## Outputs
-
--
-
-## Integration Notes
-
--
-
-## Risks / Caveats
-
--
-
-## Maturity
+## Index Judgment
 
 - Status: Experimental / Useful / Production-used / Deprecated
-- Integration difficulty: Low / Medium / High
-- Recommended priority: Low / Medium / High
+- Category:
+- Secondary categories:
+- Best for:
+- Why listed:
+- Not for:
+- Link:
+- Last checked:
 
-## Recommended Placement
+## ChainSea Value
 
-- File:
-- Section:
-- Tags:
+{{Internal adoption judgment. Explain why this matters for ChainSea. Do not mirror the original README.}}
+
+## Risks
+
+-
+-
+-
+
+## Verification
+
+- Last checked:
+- Commit / version inspected:
+- Checks run:
+- Checks not run:
+
+## Next Step
+
+-

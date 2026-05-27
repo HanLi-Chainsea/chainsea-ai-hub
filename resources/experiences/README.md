@@ -1,6 +1,12 @@
 # Development Experience Notes
 
-開發經驗庫用來保存「當時怎麼做、為什麼這樣做、後來學到什麼」。它和 repo 清單不同：repo 清單追求好找，experience notes 追求保留脈絡與自然迭代。
+「當時怎麼做、為什麼這樣做、後來學到什麼」的時間感知工程紀錄。和 repo 清單不同：repo 清單追求好找，experience notes 追求保留脈絡與自然迭代。
+
+## Candidate Use Cases
+
+- 做了一個技術決策，想留住當時的限制條件與 trade-off 推理。
+- 踩了坑，想讓未來自己或同事能快速找到前因後果。
+- 某個判斷後來被推翻，值得追加 update 而不是覆寫原紀錄。
 
 ## 設計原則
 
@@ -15,6 +21,6 @@
 YYYY-MM-DD-topic.md
 ```
 
-## Template
+## Entries
 
-使用 [templates/experience-note-template.md](../../templates/experience-note-template.md)。
+目前尚未收錄正式條目。新增時使用 [templates/experience-note-template.md](../../templates/experience-note-template.md)。

@@ -7,28 +7,25 @@ Agent framework、coding agent、multi-agent workflow 與 AI-assisted engineerin
 ```md
 ### Resource Name
 
-- Type:
+- Status: Experimental / Useful / Production-used / Deprecated
 - Category:
 - Best for:
-- Maturity:
-- Integration difficulty:
+- Why listed:
+- Not for:
 - Last checked:
 - Details:
 - Link:
-
 ```
 
 ## Entries
 
 ### HAN-Agents
 
-- Type: Python-based multi-agent task orchestration skill / local agent support library
+- Status: Useful
 - Category: AI Agents
-- Secondary categories: MCP / Tool Integration, Testing & QA, LLM Evaluation, Development Experience
-- Tags: `agent`, `workflow`, `testing`, `evaluation`, `python`, `sqlite`
-- Best for: 將長任務拆成 PFC → Executor → Critic → Memory 流程，並保留 code graph、task hierarchy、semantic memory、drift detection 與本地 trace/eval。
-- Maturity: Useful
-- Integration difficulty: Medium
+- Best for: 長任務拆解、agent review loop、local memory / task state、skill-code drift 檢查。
+- Why listed: 把多 agent 工作流、memory、code graph、critic loop 包成可複用 skill，是 ChainSea 內部 agent workflow 設計的外部參考樣板。
+- Not for: 高敏感 repo、嚴格受控 CI、不能接受本機 SQLite / hook 副作用的環境。
 - Last checked: 2026-05-20
 - Details: [ai-agents/han-agents.md](ai-agents/han-agents.md)
 - Link: https://github.com/HanLi-Chainsea/han-agents

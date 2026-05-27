@@ -1,46 +1,31 @@
 # {{name}}
 
-## Basic Info
+## Index Judgment
 
-- Type:
+- Status:
 - Category:
-- Source:
+- Secondary categories:
+- Best for:
+- Why listed:
+- Not for:
 - Link:
-- License:
-- Owner / Maintainer:
 - Last checked:
 
-## Summary
+## ChainSea Value
 
-{{Concise summary.}}
-
-## Best Use Cases
-
--
-
-## Inputs
-
--
-
-## Outputs
-
--
-
-## ChainSea Fit
-
-{{Why this matters internally.}}
+{{Internal adoption judgment. Do not mirror the original README.}}
 
 ## Risks / Caveats
 
 -
 
-## Maturity
+## Verification
 
-- Status:
-- Integration difficulty:
-- Recommended priority:
+- Last checked:
+- Commit / version inspected:
+- Checks run:
+- Checks not run:
 
-## Recommended Placement
+## Next Step
 
-- File:
-- Tags:
+-

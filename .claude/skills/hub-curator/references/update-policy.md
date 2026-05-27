@@ -27,6 +27,8 @@ Growth is expected, but keep it folded into leaf pages:
 
 When a category entry grows beyond roughly 10-12 lines, move the long content to a detail page and keep only a quick card in the category page.
 
+Even detail pages should not become replacement READMEs. If the original project already documents features, installation, or APIs, link to it. The hub should preserve judgment, classification, risks, verification, and next steps.
+
 ## Experience Notes
 
 Experience notes should preserve chronology:

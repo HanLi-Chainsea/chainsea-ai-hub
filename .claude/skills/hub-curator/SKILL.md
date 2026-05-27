@@ -37,6 +37,7 @@ Use this skill to keep `chainsea-ai-hub` useful, current, and easy to maintain. 
 - If an entry needs more than roughly 10-12 lines, create a detail page under a same-named subdirectory, such as `resources/repos/ai-agents/han-agents.md`.
 - The category entry should link to the detail page through a `Details:` field.
 - Put verification logs, long caveats, integration notes, and next-step plans in the detail page.
+- Do not mirror or rewrite the original project's README. Store only the minimum context needed to support internal adoption judgment, classification, risk review, and maintenance.
 - It is okay for the hub to grow, as long as growth happens in leaf pages instead of top-level indexes.
 
 ## Decision Rules
@@ -56,8 +57,9 @@ If the resource is promising but immature, add it to `resources/watchlist.md` wi
 - Write primarily in Traditional Chinese.
 - Keep necessary English technical terms when they are clearer than translation.
 - Prefer practical notes over broad claims.
-- Include when to use, when not to use, risks, caveats, and integration notes.
+- Focus on internal judgment: why listed, not for, ChainSea value, risks, verification, and next step.
 - Include `Last checked` for resources and dates for experience notes.
+- Link to original docs for feature details instead of copying them.
 - Avoid marketing language and vague adjectives.
 
 For detailed style guidance, read `references/writing-style.md` when drafting longer entries.
