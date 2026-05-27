@@ -1,6 +1,6 @@
 # ChainSea AI Hub Index
 
-這份索引用來讓工程師快速判斷「現在的任務該看哪裡」。每個正式收錄的資源都應該包含用途、輸入、輸出、成熟度、限制與最後檢查時間。
+這份索引用來讓工程師快速判斷「現在的任務該看哪裡」。正式條目使用 [templates/resource-card.md](templates/resource-card.md) 的判斷導向 schema（Why listed / ChainSea Value / Risks / Verification / Next Step）。
 
 ## 兩種層別
 
@@ -10,9 +10,8 @@
 ## Resource Repos
 
 - [AI Agents](resources/repos/ai-agents.md)：agent framework、multi-agent workflow、coding agent 工具。
-- [Testing & QA](resources/repos/testing-qa.md)：unit test、E2E、QA case、coverage、mutation testing。
-- [MCP & Tool Integration](resources/repos/mcp-tools.md)：MCP server、Jira/GitLab/GitHub/API 整合。
-- [Documentation & PM](resources/repos/documentation.md)：PRD、文件、會議紀錄、需求整理與知識管理。
+
+其他分類（Testing & QA / MCP & Tool Integration / Documentation / PM）在累積 ≥3 entries 時才開設專頁；現在新資源預設進 [Watchlist](resources/watchlist.md)。完整 taxonomy 見 [hub-curator SKILL.md](.claude/skills/hub-curator/SKILL.md)。
 
 ## Skills
 
@@ -31,5 +30,4 @@
 ## Governance
 
 - [Watchlist](resources/watchlist.md)：awesome 風格 discovery 層 —— 一行 entry、月度 review。
-- [Contributing](CONTRIBUTING.md)：新增或更新內容時的格式與品質規則。
-- [Templates](templates)：resource、skill、case、experience note 的模板。
+- [Templates](templates)：resource、case、experience note 的模板。
