@@ -36,8 +36,17 @@
 Claude Code 使用者 clone 這個 repo 後，內建 skill 會從 `.claude/skills/hub-curator/` 自動註冊為 `/hub-curator`。新增資源時，優先使用：
 
 ```txt
-/hub-curator add this repo:
-https://github.com/example/project
+# 預設：加進 watchlist（無採用情境）
+/hub-curator add this repo: <URL>
+
+# 升級：watchlist → adoption detail page
+/hub-curator promote <name>
+
+# 月度掃 watchlist，決定 Promote / Keep / Drop
+/hub-curator review watchlist
+
+# 略過 watchlist，直接做完整評估（需有 ChainSea 採用情境）
+/hub-curator evaluate <URL>
 ```
 
 如果使用的工具尚未支援 `.claude/skills/`，請閱讀 [AGENTS.md](AGENTS.md)；它會指向同一份 skill 與手動註冊方式。
@@ -51,18 +60,6 @@ https://github.com/example/project
 5. 建議放置位置
 6. Markdown 條目
 7. 需要更新的檔案
-
-## 第一版範圍
-
-第一版先聚焦五個方向：
-
-1. Testing & QA
-2. Jira / GitLab / MCP automation
-3. Agent skills
-4. E2E / QA test case generation
-5. Research / crawling / knowledge gathering
-
-每個分類先維持少量、高品質、可說明用途的條目。看起來有趣但還沒有實際驗證的資源，先放進 watchlist。
 
 ## Skill 相容性策略
 

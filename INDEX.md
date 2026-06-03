@@ -21,11 +21,11 @@
 
 ## Case Library
 
-- [Case Library](resources/cases/README.md)：已被實際專案驗證或可對內分享的成果案例。
+- [Case Library](resources/cases/README.md)：已被實際專案驗證或可對內分享的成果案例（目前無條目）。
 
 ## Experience Library
 
-- [Development Experience Notes](resources/experiences/README.md)：保留時間痕跡的開發經驗紀錄。
+- [Development Experience Notes](resources/experiences/README.md)：保留時間痕跡的開發經驗紀錄（目前無條目）。
 
 ## Governance
 
