@@ -82,15 +82,11 @@ Add new categories only when ≥3 entries justify the split. Do not pre-create e
 
 ## Decision Rules
 
-Add a resource to the main hub only when at least one is true:
+Use Path C (full adoption) only when the resource has a concrete ChainSea use case — currently in use, actively being evaluated, or scheduled for a specific upcoming project.
 
-- It solves a recurring engineering problem.
-- It improves AI-assisted development workflow.
-- It can be reused across projects.
-- It is useful for testing, documentation, automation, or integration.
-- It is an important reference for future internal experiments.
+If the resource is interesting but has no concrete use case yet, default to Path A (watchlist quick add). Watchlist entries are reviewed monthly (see Review Cadence).
 
-If the resource is promising but immature, add it to `resources/watchlist.md` with a recheck date. If it is not clearly useful, explain why and do not add it.
+Reject the resource only when the use case is unclear, the project is abandoned, or risk clearly outweighs expected benefit.
 
 ## Review Cadence
 

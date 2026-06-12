@@ -14,4 +14,4 @@
 ## Items
 
 - ⭐ [Understand-Anything](https://github.com/Lum1104/Understand-Anything) — codebase → interactive knowledge graph，跨 Claude Code / Codex / Cursor / Copilot / Gemini CLI 支援。為什麼想看：與 hub-curator 同方向的「自我維護 AI skill」樣板。Added: 2026-06-03
-- [NVIDIA/skills](https://github.com/NVIDIA/skills) — NVIDIA 官方 AI agent skill 集合（SKILL.md 格式）。為什麼想看：大廠 SKILL.md 風格樣板。Note: license 為 Other，未指定 SPDX。Added: 2026-06-03
+- ⭐ [NVIDIA/skills](https://github.com/NVIDIA/skills) — NVIDIA 官方 AI agent skill 集合（SKILL.md 格式）。為什麼想看：大廠 SKILL.md 風格樣板。Note: license 為 Other，未指定 SPDX。Added: 2026-06-03

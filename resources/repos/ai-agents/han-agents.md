@@ -9,6 +9,7 @@
 - Why listed: 它把 AI coding workflow 產品化成可安裝 skill + local state system，值得作為 ChainSea 內部 agent workflow 與 hub 自我維護設計的參考樣板。
 - Not for: 高敏感 repo、嚴格受控 CI、不能接受本機 SQLite / hook / optional install 副作用的環境。
 - Link: https://github.com/HanLi-Chainsea/han-agents
+- Last checked: 2026-05-20
 
 ## ChainSea Value
 
@@ -27,10 +28,9 @@
 ## Verification
 
 - Last checked: 2026-05-20
-- Commit inspected: `b837bd0b9cfe5c9ff0abe9353f2fa5ad9cf8b9b3` (2026-05-06)
-- `python scripts/doctor.py`: 6 OK, 1 warning, 0 errors
-- Warning: Code Graph empty; repo suggested running sync
-- Full test suite: Not run
+- Commit / version inspected: `b837bd0b9cfe5c9ff0abe9353f2fa5ad9cf8b9b3` (2026-05-06)
+- Checks run: `python scripts/doctor.py` — 6 OK, 1 warning, 0 errors；Warning: Code Graph empty, repo suggested running sync
+- Checks not run: Full test suite
 
 ## Next Step
 

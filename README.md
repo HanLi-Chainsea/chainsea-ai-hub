@@ -51,15 +51,11 @@ Claude Code 使用者 clone 這個 repo 後，內建 skill 會從 `.claude/skill
 
 如果使用的工具尚未支援 `.claude/skills/`，請閱讀 [AGENTS.md](AGENTS.md)；它會指向同一份 skill 與手動註冊方式。
 
-期望輸出：
+期望輸出（依路徑而定）：
 
-1. 資源摘要
-2. 分類與標籤
-3. ChainSea 適用情境
-4. 成熟度與風險
-5. 建議放置位置
-6. Markdown 條目
-7. 需要更新的檔案
+- **Path A (Quick Add)**：watchlist 單行 entry（含 Tagline / Reason / Added 與選擇性 ⭐ 或 Note:）
+- **Path C (Evaluate)**：完整 detail page（依 templates/resource-card.md schema：Index Judgment / ChainSea Value / Risks / Verification / Next Step）+ 類別頁索引卡 + 必要時 INDEX 更新
+- **Path B (Promote)**：watchlist 條目 → Path C 輸出 + 從 watchlist 移除
 
 ## Skill 相容性策略
 
